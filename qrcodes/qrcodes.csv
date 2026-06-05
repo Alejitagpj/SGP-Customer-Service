@@ -1,0 +1,16 @@
+Table,Store,TableId,URL,Passcode
+Mesa 1,El Rincón del Sabor - Centro,table-1-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-1-uuid,1001
+Mesa 2,El Rincón del Sabor - Centro,table-2-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-2-uuid,1002
+Mesa 3,El Rincón del Sabor - Centro,table-3-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-3-uuid,1003
+Mesa 4,El Rincón del Sabor - Centro,table-4-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-4-uuid,1004
+Mesa 5,El Rincón del Sabor - Centro,table-5-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-5-uuid,1005
+Mesa 6,El Rincón del Sabor - Centro,table-6-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-6-uuid,1006
+Mesa 7,El Rincón del Sabor - Centro,table-7-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-7-uuid,1007
+Mesa 8,El Rincón del Sabor - Centro,table-8-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-8-uuid,1008
+Mesa 9,El Rincón del Sabor - Plaza Norte,table-9-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-9-uuid,1009
+Mesa 10,El Rincón del Sabor - Plaza Norte,table-10-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-10-uuid,1010
+Mesa 11,El Rincón del Sabor - Plaza Norte,table-11-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-11-uuid,1011
+Mesa 12,El Rincón del Sabor - Plaza Norte,table-12-uuid,http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-12-uuid,1012
+Mesa 13,Casa Delicias - Miraflores,table-13-uuid,http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-13-uuid,1013
+Mesa 14,Casa Delicias - Miraflores,table-14-uuid,http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-14-uuid,1014
+Mesa 15,Casa Delicias - Miraflores,table-15-uuid,http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-15-uuid,1015

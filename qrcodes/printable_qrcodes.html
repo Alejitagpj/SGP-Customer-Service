@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QR Mesas - Imprimir</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 20px; color:#111 }
+    .grid { display:flex; flex-wrap:wrap; gap:18px }
+    .card { width:250px; border:1px solid #ddd; border-radius:8px; padding:12px; box-sizing:border-box; text-align:center }
+    .qr { width:200px; height:200px; margin:0 auto 8px }
+    .meta { font-size:14px; font-weight:600 }
+    .pass { margin-top:6px; font-size:13px; color:#444 }
+    @media print {
+      body { margin:10mm }
+      .card { page-break-inside: avoid; break-inside: avoid }
+    }
+  </style>
+</head>
+<body>
+  <h1>QR para mesas (Imprimir)</h1>
+  <p>Escanea el QR para abrir la mesa en la app. Debajo está la clave (passcode) a usar si se solicita.</p>
+  <div class="grid">
+
+    <!-- Mesa 1 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-1-uuid" alt="QR Mesa 1" />
+      <div class="meta">Mesa 1 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1001</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-1-uuid</div>
+    </div>
+
+    <!-- Mesa 2 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-2-uuid" alt="QR Mesa 2" />
+      <div class="meta">Mesa 2 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1002</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-2-uuid</div>
+    </div>
+
+    <!-- Mesa 3 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-3-uuid" alt="QR Mesa 3" />
+      <div class="meta">Mesa 3 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1003</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-3-uuid</div>
+    </div>
+
+    <!-- Mesa 4 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-4-uuid" alt="QR Mesa 4" />
+      <div class="meta">Mesa 4 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1004</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-4-uuid</div>
+    </div>
+
+    <!-- Mesa 5 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-5-uuid" alt="QR Mesa 5" />
+      <div class="meta">Mesa 5 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1005</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-5-uuid</div>
+    </div>
+
+    <!-- Mesa 6 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-6-uuid" alt="QR Mesa 6" />
+      <div class="meta">Mesa 6 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1006</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-6-uuid</div>
+    </div>
+
+    <!-- Mesa 7 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-7-uuid" alt="QR Mesa 7" />
+      <div class="meta">Mesa 7 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1007</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-7-uuid</div>
+    </div>
+
+    <!-- Mesa 8 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-8-uuid" alt="QR Mesa 8" />
+      <div class="meta">Mesa 8 — El Rincón del Sabor - Centro</div>
+      <div class="pass">Clave: <strong>1008</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-centro/t/table-8-uuid</div>
+    </div>
+
+    <!-- Mesa 9 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-9-uuid" alt="QR Mesa 9" />
+      <div class="meta">Mesa 9 — El Rincón del Sabor - Plaza Norte</div>
+      <div class="pass">Clave: <strong>1009</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-9-uuid</div>
+    </div>
+
+    <!-- Mesa 10 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-10-uuid" alt="QR Mesa 10" />
+      <div class="meta">Mesa 10 — El Rincón del Sabor - Plaza Norte</div>
+      <div class="pass">Clave: <strong>1010</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-10-uuid</div>
+    </div>
+
+    <!-- Mesa 11 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-11-uuid" alt="QR Mesa 11" />
+      <div class="meta">Mesa 11 — El Rincón del Sabor - Plaza Norte</div>
+      <div class="pass">Clave: <strong>1011</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-11-uuid</div>
+    </div>
+
+    <!-- Mesa 12 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-12-uuid" alt="QR Mesa 12" />
+      <div class="meta">Mesa 12 — El Rincón del Sabor - Plaza Norte</div>
+      <div class="pass">Clave: <strong>1012</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/el-rincon-sabor-plaza/t/table-12-uuid</div>
+    </div>
+
+    <!-- Mesa 13 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-13-uuid" alt="QR Mesa 13" />
+      <div class="meta">Mesa 13 — Casa Delicias - Miraflores</div>
+      <div class="pass">Clave: <strong>1013</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-13-uuid</div>
+    </div>
+
+    <!-- Mesa 14 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-14-uuid" alt="QR Mesa 14" />
+      <div class="meta">Mesa 14 — Casa Delicias - Miraflores</div>
+      <div class="pass">Clave: <strong>1014</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-14-uuid</div>
+    </div>
+
+    <!-- Mesa 15 -->
+    <div class="card">
+      <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-15-uuid" alt="QR Mesa 15" />
+      <div class="meta">Mesa 15 — Casa Delicias - Miraflores</div>
+      <div class="pass">Clave: <strong>1015</strong></div>
+      <div style="font-size:10px;color:#666;margin-top:6px">http://127.0.0.1:5173/s/casa-delicias-miraflores/t/table-15-uuid</div>
+    </div>
+
+  </div>
+</body>
+</html>
